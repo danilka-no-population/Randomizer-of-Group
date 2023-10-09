@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('img/binary.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(251, 251, 251);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.wrapper{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6)
+}
+.randBtn{
+    padding: 5px;
+    width: 20em;
+    height: 5em;
+    margin: 1em;
+    font-weight: bold;
+    font-size: 20px;
+    border: 6px solid teal;
+}
+.poloska{
+    height: 10px;
+    width: 20vw;
+    margin: 40px;
+    background-color:aliceblue;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+.again{
+    width : 10em;
+    height: 3em;
+    background-color:rgba(0, 0, 0, 0.6);
+    color: white;
+    border: 2px solid white;
+}
